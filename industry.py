@@ -14,6 +14,6 @@ for category in industry_categories:
     print(category)
 
 # 將項目存檔到文件中
-with open('industry_categories.txt', 'w') as file:
+with open('industry_categories.txt', 'w',encoding="UTF-8") as file:
     for category in industry_categories:
         file.write(f'{category}\n')
